@@ -10,7 +10,7 @@ namespace SimpleHttpClient
     class Server
     {
         private static IPAddress IpAddress = Dns.GetHostEntry(Dns.GetHostName()).AddressList[1];
-        private static int Port = 4040;
+        private static int Port = 8080;
         
         private static ManualResetEvent AllDone = new(false);
 
